@@ -2,6 +2,8 @@
   "name": "mapping-context-rn",
   "version": "0.0.1",
   "private": true,
+  "description": "mapping-context-rn",
+  "main": "lib/index.ts",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
