@@ -6,4 +6,5 @@ O `mapping-context-rn` é o repositório responsável por centralizar componente
 
 - [ ] Verificar como desativar pasta lib no coverage
 - [ ] Verificar como rodar o yarn lint:tsc:ci pelo terminal
+- [ ] Remover libs que não serão utilizadas
 
