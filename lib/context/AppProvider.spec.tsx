@@ -180,7 +180,8 @@ describe('AppProvider', () => {
     }));
     const initialState = {
       roles: ['CONTA_CORRENTE'] as RoleType[],
-      loggedUser: { documentNumber: '12345678910' },
+      // loggedUser: { documentNumber: '12345678910' },
+      loggedUser: { email: 'teste@db1.com.br', isAdminUser: false },
       auth: {
         accessToken: '',
         refreshToken: '',
@@ -206,7 +207,8 @@ describe('AppProvider', () => {
     expect(AppHolder.getState()).toEqual({
       auth: undefined,
       loggedUser: {
-        documentNumber: '12345678910',
+        email: 'teste@db1.com.br',
+        isAdminUser: false,
       },
       roles: [],
       logout: expect.any(Function),

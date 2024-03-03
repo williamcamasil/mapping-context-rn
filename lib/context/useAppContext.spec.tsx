@@ -13,16 +13,16 @@ describe('useAppContext', () => {
       return (
         <View>
           <Text>
-            Document number:
+            Email number:
             {' '}
-            {appContext.loggedUser?.documentNumber}
+            {appContext.loggedUser?.email}
           </Text>
         </View>
       );
     };
 
     const screen = render(
-      <AppProvider initialState={{ roles: ['CARTAO_CREDITO'], loggedUser: { documentNumber: '12345678910' } }}>
+      <AppProvider initialState={{ roles: ['CARTAO_CREDITO'], loggedUser: { email: 'teste@db1.com.br', isAdminUser: false } }}>
         <FakeScreen />
       </AppProvider>,
     );

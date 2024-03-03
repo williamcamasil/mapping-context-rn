@@ -1,14 +1,8 @@
 import React, { Dispatch, SetStateAction } from 'react';
 
 export type LoggedUserType = {
-  documentNumber?: string;
-  activeName?: string;
-  firstName?: string;
-  lastName?: string;
-  email?: string;
-  phone?: string;
-  birthdayDate?: string;
-  pictureUrl?: string;
+  email: string;
+  isAdminUser: boolean;
 };
 
 export type RoleType = 'FINANCIAMENTO' | 'CONTA_CORRENTE' | 'CARTAO_CREDITO';

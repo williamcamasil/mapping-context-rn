@@ -70,11 +70,12 @@ export const AppProvider: React.FC<ProviderPropsType> = ({
     const origin = AppHolder.getState().auth?.variant;
     setAuth(undefined);
     setLoggedUser({
-      documentNumber: loggedUser?.documentNumber,
+      email: loggedUser?.email!,
+      isAdminUser: loggedUser?.isAdminUser!,
     });
     setRoles([]);
     onAppLogout?.(origin);
-  }, [loggedUser?.documentNumber, onAppLogout]);
+  }, [loggedUser, onAppLogout]);
 
   const startApp = useCallback(async () => {
     try {
