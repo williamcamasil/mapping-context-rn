@@ -13,8 +13,6 @@ describe('useAppContext', () => {
       return (
         <View>
           <Text>
-            Email number:
-            {' '}
             {appContext.loggedUser?.email}
           </Text>
         </View>
@@ -26,6 +24,6 @@ describe('useAppContext', () => {
         <FakeScreen />
       </AppProvider>,
     );
-    screen.getByText('Document number: 12345678910');
+    screen.getByText('teste@db1.com.br');
   });
 });
