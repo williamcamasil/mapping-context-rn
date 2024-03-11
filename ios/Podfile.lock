@@ -296,8 +296,6 @@ PODS:
     - glog
   - react-native-biometrics (3.0.1):
     - React-Core
-  - react-native-get-random-values (1.9.0):
-    - React-Core
   - react-native-safe-area-context (4.5.1):
     - RCT-Folly
     - RCTRequired
@@ -432,7 +430,6 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-biometrics (from `../node_modules/react-native-biometrics`)
-  - react-native-get-random-values (from `../node_modules/react-native-get-random-values`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -524,8 +521,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-biometrics:
     :path: "../node_modules/react-native-biometrics"
-  react-native-get-random-values:
-    :path: "../node_modules/react-native-get-random-values"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
@@ -599,7 +594,6 @@ SPEC CHECKSUMS:
   React-jsinspector: 9885f6f94d231b95a739ef7bb50536fb87ce7539
   React-logger: 3f8ebad1be1bf3299d1ab6d7f971802d7395c7ef
   react-native-biometrics: 352e5a794bfffc46a0c86725ea7dc62deb085bdc
-  react-native-get-random-values: dee677497c6a740b71e5612e8dbd83e7539ed5bb
   react-native-safe-area-context: f5549f36508b1b7497434baa0cd97d7e470920d4
   React-perflogger: 2d505bbe298e3b7bacdd9e542b15535be07220f6
   React-RCTActionSheet: 0e96e4560bd733c9b37efbf68f5b1a47615892fb
@@ -621,4 +615,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: fb0863d7fe48fbf119653f66aefe9336835d83b3
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.0
