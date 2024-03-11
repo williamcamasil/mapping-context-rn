@@ -4819,9 +4819,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#dev":
+"babel-preset-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#master":
   version: 1.0.0
-  resolution: "babel-preset-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#commit=f67d6f0346aeef3807efc856de060d29b1ff441e"
+  resolution: "babel-preset-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#commit=96a068205cb038c778487c8fe7e6c07fda29912a"
   dependencies:
     "@babel/core": 7.21.4
     "@babel/eslint-parser": 7.22.15
@@ -6423,9 +6423,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#dev":
+"eslint-config-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#master":
   version: 1.0.0
-  resolution: "eslint-config-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#commit=f2b4c7e2fec2ad167d1cd49c23034c66d6300d25"
+  resolution: "eslint-config-rn-mapping@git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#commit=8329d5ad8f782f4a62bc14005c8114ea0b22e8fe"
   dependencies:
     "@react-native-community/eslint-config": 3.2.0
     eslint: 8.39.0
@@ -6436,7 +6436,7 @@ __metadata:
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-react-perf: 3.3.1
     eslint-plugin-testing-library: 5.10.3
-  checksum: 0ae952f24ef4775ff7f966f27669e9b82747439e6285414d8c6be80ba6ed49609bbec3df56a424e267e941438986cd299a9a65272c1053e53983141a6250c47d
+  checksum: ccadac8a2adcac6d522616f350dc3d1e35d609f6847b58c56467c63a95aa7fef13e7f3bff42b82942fd4ff4217ff2471557914dda7653044610b8b73c3312a38
   languageName: node
   linkType: hard
 
@@ -9928,10 +9928,10 @@ __metadata:
     "@zxcvbn-ts/language-pt-br": 2.1.0
     axios: 0.21.4
     axios-mock-adapter: 1.21.2
-    babel-preset-rn-mapping: "git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#dev"
+    babel-preset-rn-mapping: "git+ssh://git@github.com-pessoal:williamcamasil/babel-preset-rn-mapping.git#master"
     date-fns: 2.29.2
     date-fns-tz: 1.3.7
-    eslint-config-rn-mapping: "git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#dev"
+    eslint-config-rn-mapping: "git+ssh://git@github.com-pessoal:williamcamasil/eslint-config-rn-mapping.git#master"
     events: 3.3.0
     expo: 48.0.12
     expo-document-picker: 11.2.2
@@ -9940,7 +9940,7 @@ __metadata:
     expo-secure-store: 12.1.1
     husky: 8.0.1
     imask: 6.4.3
-    mapping-tools-rn: "git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#dev"
+    mapping-tools-rn: "git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#master"
     npm-run-all: 4.1.5
     react: 18.2.0
     react-native: 0.71.7
@@ -9955,9 +9955,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"mapping-tools-rn@git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#dev":
+"mapping-tools-rn@git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#master":
   version: 1.0.0
-  resolution: "mapping-tools-rn@git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#commit=76cfac61af6fd5298e70bfec7895c73530a8fd2f"
+  resolution: "mapping-tools-rn@git+ssh://git@github.com-pessoal:williamcamasil/mapping-tools-rn.git#commit=0ee9e78d1622ca2ea3befdbf6bccfc5d75b484fd"
   dependencies:
     "@commitlint/cli": 17.6.1
     "@commitlint/config-angular": 17.6.1
